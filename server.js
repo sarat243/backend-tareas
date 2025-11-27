@@ -17,7 +17,7 @@ app.use(cors());
 // CONEXIÓN A MONGODB ATLAS
 // -------------------------------
 mongoose.connect(
-  'mongodb+srv://admin:Tareas1234@tareascluster.rkqstk3.mongodb.net/todolist?retryWrites=true&w=majority&appName=TareasCluster'
+  'mongodb+srv://admin:Tareas1234@tareascluster.rkqstk3.mongodb.net/todolist?retryWrites=true&w=majority'
 ).then(() => console.log("✅ Conectado a MongoDB Atlas"))
  .catch(err => console.log("❌ Error al conectar:", err));
 
